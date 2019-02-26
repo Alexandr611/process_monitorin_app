@@ -19,9 +19,10 @@ io.on('connection', function (socket) {
         socket.emit('iosdeploy', data);
     });
 
-    socket.on('iosdevice', () => {
+    socket.on('iosdevice', async () => {
         // @TODO add handler
-        console.log('iosdevice hanler')
+        const data = await SpawnService.getProcessInfo('ios-deploy');
+        socket.emit('iosdeploy', data);
     });
 
     socket.on('xcodebuild', () => {

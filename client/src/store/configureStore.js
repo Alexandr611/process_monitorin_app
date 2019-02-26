@@ -8,10 +8,10 @@ const middlewares = [
   thunk
 ];
 
-const composeEnhancers =  window.__REDUX_DEVTOOLS_EXTENSION__ || compose;
+const composeEnhancers =  window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const enhancer = composeEnhancers(
-  applyMiddleware(thunk)
+  applyMiddleware(...middlewares)
 );
 
 const initStore = (initialState) => {

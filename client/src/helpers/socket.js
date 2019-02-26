@@ -1,7 +1,11 @@
 import io from 'socket.io-client';
 import EventEmmiter from 'eventemitter3';
 import { store } from '../store/configureStore';
-import { getIosDeployInfoSuccess } from '../store/actions/'
+import {
+  getIosDeployInfoSuccess,
+  getIosDeviceInfoSuccess,
+  getXcodebuildInfoSuccess
+} from '../store/actions/'
 
 const connectionURI = 'http://localhost:3030';
 
@@ -14,10 +18,12 @@ socket.on('iosdeploy', data => {
 
 socket.on('iosdevice', data => {
   console.log('iosdevice ', data);
+  store.dispatch(getIosDeviceInfoSuccess(data))
 });
 
 socket.on('xcodebuild', data => {
   console.log('xcodebuild', data)
+  store.dispatch(getXcodebuildInfoSuccess(data))
 })
 
 function getConnection() {

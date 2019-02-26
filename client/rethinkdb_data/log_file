@@ -1,0 +1,37 @@
+2019-02-22T15:02:27.675821000 0.156466s notice: Recursively removing directory /Users/macbook/Documents/Qa Tools/process_monitoring_app/client/rethinkdb_data/tmp
+2019-02-22T15:02:27.677772000 0.158422s notice: Initializing directory /Users/macbook/Documents/Qa Tools/process_monitoring_app/client/rethinkdb_data
+2019-02-22T15:02:27.677890000 0.158534s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/macbook/Documents/Qa Tools/process_monitoring_app/client/rethinkdb_data' did not already exist or is empty.)
+2019-02-22T15:02:27.677925000 0.158570s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2019-02-22T15:02:27.681816000 0.162461s notice: Running on Darwin 18.0.0 x86_64
+2019-02-22T15:02:27.681858000 0.162502s notice: Loading data from directory /Users/macbook/Documents/Qa Tools/process_monitoring_app/client/rethinkdb_data
+2019-02-22T15:02:27.835148000 0.315800s info: Automatically using cache size of 981 MB
+2019-02-22T15:02:27.836085000 0.316737s notice: Listening for intracluster connections on port 29015
+2019-02-22T15:02:27.837947000 0.318599s notice: Listening for client driver connections on port 28015
+2019-02-22T15:02:27.838058000 0.318710s notice: Listening for administrative HTTP connections on port 8080
+2019-02-22T15:02:27.838060000 0.318711s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-02-22T15:02:27.838064000 0.318715s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-02-22T15:02:27.838066000 0.318718s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-02-22T15:02:27.838072000 0.318723s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-02-22T15:02:27.838077000 0.318729s notice: Server ready, "MacBooks_MacBook_Pro_local_yiy" 7fbd5fb7-6b07-40d6-834c-0453cf3bd941
+2019-02-22T15:03:44.182333000 76.666480s info: Table 0eebbaa5-238b-47a1-b133-68e9572ccf75: Starting a new Raft election for term 1.
+2019-02-22T15:03:44.183145000 76.667291s info: Table 0eebbaa5-238b-47a1-b133-68e9572ccf75: Added replica on this server.
+2019-02-22T15:03:44.247391000 76.731540s info: Table e22fbb7e-d0ef-4fd3-82fb-5aa3fe409130: Starting a new Raft election for term 1.
+2019-02-22T15:03:44.247826000 76.731976s info: Table e22fbb7e-d0ef-4fd3-82fb-5aa3fe409130: Added replica on this server.
+2019-02-22T15:03:44.303731000 76.787883s info: Table ecaa1da5-e638-434a-ae4f-502521fb7e8d: Starting a new Raft election for term 1.
+2019-02-22T15:03:44.315086000 76.799239s info: Table ecaa1da5-e638-434a-ae4f-502521fb7e8d: Added replica on this server.
+2019-02-22T15:03:44.315383000 76.799536s info: Table c37701bc-af65-4989-9ea8-cd89d8325749: Starting a new Raft election for term 1.
+2019-02-22T15:03:44.315558000 76.799710s info: Table c37701bc-af65-4989-9ea8-cd89d8325749: Added replica on this server.
+2019-02-22T15:03:44.315833000 76.799985s info: Table 27990b27-e5ce-499f-b7d3-4627aea2ef7f: Starting a new Raft election for term 1.
+2019-02-22T15:03:44.315991000 76.800143s info: Table 27990b27-e5ce-499f-b7d3-4627aea2ef7f: Added replica on this server.
+2019-02-22T15:03:44.339082000 76.823236s info: Table 0eebbaa5-238b-47a1-b133-68e9572ccf75: This server is Raft leader for term 1. Latest log index is 0.
+2019-02-22T15:03:44.339182000 76.823335s info: Table e22fbb7e-d0ef-4fd3-82fb-5aa3fe409130: This server is Raft leader for term 1. Latest log index is 0.
+2019-02-22T15:03:44.351325000 76.835479s info: Table ecaa1da5-e638-434a-ae4f-502521fb7e8d: This server is Raft leader for term 1. Latest log index is 0.
+2019-02-22T15:03:44.351406000 76.835560s info: Table c37701bc-af65-4989-9ea8-cd89d8325749: This server is Raft leader for term 1. Latest log index is 0.
+2019-02-22T15:03:44.351480000 76.835634s info: Table 27990b27-e5ce-499f-b7d3-4627aea2ef7f: This server is Raft leader for term 1. Latest log index is 0.
+2019-02-22T15:03:44.880404000 77.364583s info: Table 27990b27-e5ce-499f-b7d3-4627aea2ef7f: Configuration is changing.
+2019-02-22T15:03:44.881648000 77.365826s info: Table 27990b27-e5ce-499f-b7d3-4627aea2ef7f: Configuration is changing.
+2019-02-22T15:03:45.102595000 77.586784s info: Table 0eebbaa5-238b-47a1-b133-68e9572ccf75: Configuration is changing.
+2019-02-22T15:03:45.199396000 77.683589s info: Table e22fbb7e-d0ef-4fd3-82fb-5aa3fe409130: Configuration is changing.
+2019-02-22T15:03:45.199507000 77.683700s info: Table e22fbb7e-d0ef-4fd3-82fb-5aa3fe409130: Configuration is changing.
+2019-02-22T15:03:45.199967000 77.684159s info: Table e22fbb7e-d0ef-4fd3-82fb-5aa3fe409130: Configuration is changing.
+2019-02-22T15:03:45.274546000 77.758743s info: Table c37701bc-af65-4989-9ea8-cd89d8325749: Configuration is changing.

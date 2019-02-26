@@ -6,3 +6,9 @@ export const SetSocketConn = (conn) => {
     connection: conn
   };
 }
+
+// export const getProcessInfoByName = (name) => {
+
+// }
+
+// export const getProcessInfoByName = ()

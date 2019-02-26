@@ -14,6 +14,7 @@ class App extends Component {
 			<Layout>
 				<Switch>
 					<Route path="/xcodebuild" component={Xcodebuild} />
+					<Route path="/iosdevice" component={IosDevices} />
 					<Route path="/" component={IosDeploy} />
 				</Switch>
 			</Layout>

@@ -38,10 +38,10 @@ function ButtonAppBar(props) {
 					<NavLink className={'navlink'} to="/xcodebuild">
 						<Button color="inherit">Xcodebuild</Button>
 					</NavLink>
-					<NavLink className={'navlink'} to="/">
+					<NavLink className={'navlink'} to="/iosdevice">
 						<Button color="inherit">iOS devices</Button>
 					</NavLink>
-					<NavLink className={'navlink'} to="/ios-deploy">
+					<NavLink className={'navlink'} to="/iosdeploy">
 						<Button color="inherit">ios deploy</Button>
 					</NavLink>
 				</Toolbar>
